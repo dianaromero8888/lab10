@@ -35,7 +35,7 @@ function Validate(){};
   $('.button').bind('click', function(event){
 
     var validate = new Validate();
-
+    $("#info").remove();
     var data = $('#nid').val();
 
     if(validate.userid(data)){
